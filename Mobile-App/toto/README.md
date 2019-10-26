@@ -1,4 +1,4 @@
-# flutter App
+# flutter App for Toto
 
 ## Getting Started
 
