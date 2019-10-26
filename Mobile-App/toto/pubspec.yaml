@@ -1,0 +1,38 @@
+name: toto
+description: A new Flutter project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  firebase_auth: ^0.14.0+5
+  firebase_database: ^3.0.7
+  flutter_clean_calendar: ^1.0.1 
+  datetime_picker_formfield: ^0.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.0"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/image_03.png
+    - assets/toto_gif-1.gif
+    - assets/giphy-whtie.gif
+    - assets/giphy-pink.gif
+    - assets/giphy-pink2.gif
+    - assets/giphy-rick.gif
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/logo.png"
+  image_path_android: "assets/logo.png"
+  adaptive_icon_background: "assets/image_03.png"
+  adaptive_icon_foreground: "assets/imnage_03.png"
